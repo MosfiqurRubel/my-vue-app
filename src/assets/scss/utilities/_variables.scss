@@ -1,0 +1,26 @@
+$white: rgb(255 255 255);
+$black: rgb(0 0 0);
+$green: #0dc15c;
+$blue: #3c91e6;
+
+$primary: #6e7e22;
+
+//Element colors
+$system-radius: 6px;
+
+//Kendo color update//Theme Colors
+$kendo-color-primary: $primary;
+
+// Kendo variables update
+@import "./k-variables/k-typography";
+// @import "./k-variables/k-popups";
+@import "./k-variables/k-avatar";
+// @import "./k-variables/k-buttons";
+@import "k-variables/k-buttons";
+// @import "k-variables/k-buttons";
+// @import "./k-variables/k-forms";
+// @import "k-variables/k-dropdowns";
+// @import "k-variables/k-chips";
+// @import "k-variables/k-notifications";
+// @import "k-variables/k-dialog";
+// @import "k-variables/k-grid";

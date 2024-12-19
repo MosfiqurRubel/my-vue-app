@@ -1,0 +1,27 @@
+$kendo-popup-border-radius: $system-radius;
+$kendo-popup-border-width: 0;
+$kendo-popup-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.10), 0px 1px 3px 0px rgba(0, 0, 0, 0.20);
+
+
+//Menu popup
+$kendo-menu-popup-border-width: 0px;
+$kendo-menu-popup-text: $base-text;
+$kendo-menu-popup-item-hover-text: $base-text;
+$kendo-menu-popup-md-item-padding-x: 16px;
+$kendo-menu-popup-md-item-padding-y: 6px;
+$kendo-menu-popup-md-font-size: 14px;
+$kendo-menu-popup-item-hover-bg: $system-hover-bg;
+$kendo-menu-popup-item-focus-shadow: none;
+
+
+
+//List item
+$kendo-list-group-item-border:none;
+$kendo-list-md-font-size: 14px;
+$kendo-list-text: $base-text;
+$kendo-list-border: transparent;
+$kendo-list-md-item-padding-y: 6px;
+$kendo-list-item-text: $base-text;
+$kendo-list-item-hover-text: $base-text;
+$kendo-list-item-selected-bg: $system-hover-bg;
+$kendo-list-item-selected-text: $base-text;

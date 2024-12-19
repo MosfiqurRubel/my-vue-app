@@ -1,0 +1,37 @@
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+* {
+  @apply box-border;
+
+  &:after,
+  &:before {
+    @apply box-border;
+  }
+
+  &::-webkit-scrollbar {
+    @apply size-2;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-slate-400;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-black/[0.5] rounded-md;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary cursor-pointer;
+  }
+}
+
+// html,
+// body {
+//   background-color: #f6f6f7;
+//   padding: 0;
+//   margin: 0;
+//   font-family: $opensans;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.5;
+// }

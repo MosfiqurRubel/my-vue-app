@@ -1,0 +1,22 @@
+$kendo-notification-border-width: 2px;
+$kendo-notification-border-radius: $system-radius * 2;
+$kendo-notification-padding-x: 14px;
+$kendo-notification-padding-y: 12px;
+
+$kendo-notification-theme: (
+        "error": (
+                color: $base-text,
+                background-color: $white,
+                border: $border-error
+        ),
+        "warning": (
+                color: $base-text,
+                background-color: $white,
+                border:$border-warning
+        ),
+        "success": (
+                color: $base-text,
+                background-color:  $white,
+                border: $border-success
+        )
+);

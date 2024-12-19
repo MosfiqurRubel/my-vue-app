@@ -1,0 +1,33 @@
+//$kendo-input-text
+$kendo-input-text: $base-text;
+$kendo-input-line-height: 1.3;
+$kendo-input-font-size: 14px;
+$kendo-input-lg-font-size: 14px;
+$kendo-input-lg-line-height: 1.58;
+
+// border style
+$kendo-input-border: $border-color;
+$kendo-input-hover-border: $border-color;
+$kendo-input-focus-border: $border-color;
+
+$kendo-input-focus-shadow: none;
+$kendo-input-border-radius: $system-radius;
+
+//Placeholder
+$kendo-input-placeholder-text: $base-text;
+$kendo-input-placeholder-opacity: 0.67;
+
+//Disabled
+$kendo-input-disabled-bg: $disabled-bg;
+$kendo-input-disabled-text: $border-color;
+
+//Padding
+$kendo-input-padding-x: 16px;
+$kendo-input-padding-y: 10px;
+
+//Label Error
+
+$kendo-label-optional-font-size: 13px;
+$kendo-label-optional-font-style: normal;
+$kendo-form-hint-font-size: 13px;
+$kendo-form-hint-font-style: normal;
